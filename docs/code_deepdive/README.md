@@ -11,6 +11,8 @@ This documentation provides a comprehensive analysis of the PebbleOS codebase, d
 | [03_getting_started.md](03_getting_started.md) | Overview and guide for exploring the codebase |
 | [04_architecture_deep_dive.md](04_architecture_deep_dive.md) | Deep dive into code flow, boot sequence, and system architecture |
 | [05_activity_tracking_algorithms.md](05_activity_tracking_algorithms.md) | Step counting, sleep detection, and IMU sensor algorithms |
+| [06_sleep_monitoring_algorithms.md](06_sleep_monitoring_algorithms.md) | Detailed sleep detection, sleep quality, and nap classification |
+| [07_heart_rate_hrv_stress_monitoring.md](07_heart_rate_hrv_stress_monitoring.md) | Heart rate measurement, HRV, zones, and stress concepts |
 
 ## Quick Overview
 

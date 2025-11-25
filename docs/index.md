@@ -103,6 +103,13 @@ boards/index.md
 
 ```{toctree}
 :hidden:
-:caption: 📖 Reference 
+:caption: 📖 Reference
 reference/external.md
+```
+
+```{toctree}
+:hidden:
+:caption: 📚 Tutorials
+tutorials/README.md
+tutorials/hardware/index.md
 ```

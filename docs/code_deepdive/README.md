@@ -10,6 +10,7 @@ This documentation provides a comprehensive analysis of the PebbleOS codebase, d
 | [02_repository_structure.md](02_repository_structure.md) | Repository organization and directory layout |
 | [03_getting_started.md](03_getting_started.md) | Overview and guide for exploring the codebase |
 | [04_architecture_deep_dive.md](04_architecture_deep_dive.md) | Deep dive into code flow, boot sequence, and system architecture |
+| [05_activity_tracking_algorithms.md](05_activity_tracking_algorithms.md) | Step counting, sleep detection, and IMU sensor algorithms |
 
 ## Quick Overview
 
@@ -58,6 +59,17 @@ If you're new to the codebase, we recommend reading the documentation in order:
 2. Read **[Repository Structure](02_repository_structure.md)** to learn the codebase organization
 3. Follow **[Getting Started](03_getting_started.md)** for practical exploration tips
 4. Dive into **[Architecture Deep Dive](04_architecture_deep_dive.md)** for detailed system understanding
+
+## Algorithm Deep Dives
+
+For detailed explanations of specific algorithms used in PebbleOS:
+
+- **[Activity Tracking Algorithms](05_activity_tracking_algorithms.md)** - Comprehensive guide to:
+  - Accelerometer and IMU sensor fundamentals
+  - FFT-based step counting (Kraepelin Algorithm)
+  - Sleep detection using VMC analysis
+  - Distance and calorie calculations
+  - Links to actual PebbleOS implementation code
 
 ## Related Documentation
 

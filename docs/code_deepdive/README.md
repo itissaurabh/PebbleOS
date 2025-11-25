@@ -13,6 +13,8 @@ This documentation provides a comprehensive analysis of the PebbleOS codebase, d
 | [05_activity_tracking_algorithms.md](05_activity_tracking_algorithms.md) | Step counting, sleep detection, and IMU sensor algorithms |
 | [06_sleep_monitoring_algorithms.md](06_sleep_monitoring_algorithms.md) | Detailed sleep detection, sleep quality, and nap classification |
 | [07_heart_rate_hrv_stress_monitoring.md](07_heart_rate_hrv_stress_monitoring.md) | Heart rate measurement, HRV, zones, and stress concepts |
+| [08_industry_algorithms_comparison.md](08_industry_algorithms_comparison.md) | State-of-the-art industry algorithms and device comparisons |
+| [09_detection_algorithms_tutorial.md](09_detection_algorithms_tutorial.md) | Tutorial on detection logic, ECG, and learning resources |
 
 ## Quick Overview
 
@@ -72,6 +74,35 @@ For detailed explanations of specific algorithms used in PebbleOS:
   - Sleep detection using VMC analysis
   - Distance and calorie calculations
   - Links to actual PebbleOS implementation code
+
+- **[Sleep Monitoring Algorithms](06_sleep_monitoring_algorithms.md)** - Deep dive into:
+  - VMC-based sleep detection and scoring
+  - Sleep state machine and transitions
+  - Deep sleep detection algorithms
+  - Nap classification and session validation
+
+- **[Heart Rate & HRV Monitoring](07_heart_rate_hrv_stress_monitoring.md)** - Coverage of:
+  - PPG sensor technology and heart rate measurement
+  - HRV (Heart Rate Variability) and PPI intervals
+  - Heart rate zones using Karvonen formula
+  - Stress monitoring concepts (theoretical)
+
+## Industry Comparison & Learning
+
+- **[Industry Algorithms Comparison](08_industry_algorithms_comparison.md)** - State-of-the-art analysis:
+  - Modern activity recognition (CNN, LSTM, Transformers)
+  - Deep learning sleep staging algorithms
+  - HRV and EDA-based stress detection
+  - ECG and arrhythmia detection methods
+  - Commercial device accuracy benchmarks
+  - Comparison with PebbleOS implementations
+
+- **[Detection Algorithms Tutorial](09_detection_algorithms_tutorial.md)** - Educational guide:
+  - Sensor fundamentals (accelerometer, PPG, EDA, ECG)
+  - Step-by-step algorithm explanations with intuition
+  - ECG and atrial fibrillation detection
+  - Ventricular fibrillation detection concepts
+  - **Learning Resources**: Books, courses, videos, papers, datasets
 
 ## Related Documentation
 
